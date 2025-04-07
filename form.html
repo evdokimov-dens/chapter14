@@ -8,12 +8,18 @@
     <h1>The Starbuzz Bean Machine</h1>
     <h2>Fill out the form below and click submit to order</h2>
     <form action="http://starbuzzcoffee.com/processorder.php" method="POST">
-      <input type="text" name="name" />
-      <input type="text" name="address" />
-      <input type="text" name="city" />
-      <input type="text" name="state" />
-      <input type="text" name="zip" />
-      <input type="tel" name="phone" />
+      <p>
+        Ship to: <br />
+        Имя: <input type="text" name="name" /><br />
+        Адрес: <input type="text" name="address" /><br />
+        Город: <input type="text" name="city" /><br />
+        Страна: <input type="text" name="state" /><br />
+        Почтовый индекс: <input type="text" name="zip" /> <br />
+        Телефон: <input type="tel" name="phone" /><br />
+      </p>
+      <p>
+        <input type="submit" value="Заказать сейчас" />
+      </p>
     </form>
   </body>
 </html>
